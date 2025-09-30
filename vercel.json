@@ -4,11 +4,5 @@
     "api/gemini.js": {
       "runtime": "@vercel/node@2.0.0"
     }
-  },
-  "builds": [
-    {
-      "src": "api/gemini.js",
-      "use": "@vercel/node@3.0.0"
-    }
-  ]
+  }
 }
