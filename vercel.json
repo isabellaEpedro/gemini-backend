@@ -2,13 +2,13 @@
   "version": 2,
   "functions": {
     "api/gemini.js": {
-      "runtime": "nodejs18.x"
+      "runtime": "@vercel/node@2.0.0"
     }
   },
   "builds": [
     {
       "src": "api/gemini.js",
-      "use": "@vercel/node"
+      "use": "@vercel/node@3.0.0"
     }
   ]
 }
