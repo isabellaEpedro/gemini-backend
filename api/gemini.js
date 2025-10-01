@@ -1,6 +1,6 @@
 export default async function handler(req, res) {
   // 🔥 Habilita CORS
-  res.setHeader("Access-Control-Allow-Origin", "https://xn--redaointerface-dhb.site"); // ou coloque seu domínio no lugar do *
+  res.setHeader("Access-Control-Allow-Origin", "*"); // ou coloque seu domínio no lugar do *
   res.setHeader("Access-Control-Allow-Methods", "GET,POST,OPTIONS");
   res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
 
